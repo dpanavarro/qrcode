@@ -150,7 +150,7 @@ def main():
     with col2:
         if 'byte_im' in st.session_state:
             st.image(st.session_state.byte_im, caption='QR Code gerado', use_container_width=True)
-    st.success("QR Code gerado com sucesso!")
+
 
     st.markdown(footer, unsafe_allow_html=True)
 
