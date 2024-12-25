@@ -37,7 +37,6 @@ footer = """
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         z-index: 1000;
         transition: transform 0.3s;
-        text-decoration: none;
         border: none;
     }
 
@@ -49,10 +48,15 @@ footer = """
         font-size: 36px;
         color: white;
     }
+
+    /* Remover sublinhado de todos os estados do link */
+    a.whatsapp-button, a.whatsapp-button:link, a.whatsapp-button:visited, a.whatsapp-button:hover, a.whatsapp-button:active {
+        text-decoration: none;
+    }
 </style>
 
 <div class="footer">
-    Desenvolvido por: 🛡️ <a href="https://www.panavarro.com.br" target="_blank">Panavarro</a> | 📩 <a href="mailto:thiago@panavarro.com.br">Suporte</a>
+    Desenvolvido.: 🛡️ <a href="https://www.panavarro.com.br" target="_blank">Panavarro</a> | 📩 <a href="mailto:thiago@panavarro.com.br">Suporte</a>
 </div>
 <a href="https://wa.me/5516993253920" target="_blank" class="whatsapp-button">
     <i class="fab fa-whatsapp whatsapp-icon"></i>
